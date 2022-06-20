@@ -35,6 +35,9 @@ Course slides, notes, materials, and codes:
 Course recordings:
 - https://www.youtube.com/playlist?list=PLcvf2raG3YsFISq9nymXe48YjD9dNwnHi
 
+Doxygen documentation of the laboratories:
+- https://dealii-courses.github.io/fem-with-dealii-2022/
+
 ## Course program
 
 A tentative detailed program is shown below 
