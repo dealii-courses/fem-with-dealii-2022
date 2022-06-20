@@ -1,0 +1,19 @@
+name: Indent
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    container: heltai/dealii:vscode
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Check indentation
+      run: |
+         ./scripts/check_indentation.sh 

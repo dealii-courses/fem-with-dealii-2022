@@ -1,0 +1,27 @@
+name: Doxygen
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: heltai/dealii:vscode
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Get deal.tag
+      run: |
+        wget https://www.dealii.org/developer/doxygen/deal.tag
+        
+    - name: Build Doxygen documentation
+      run: |
+        doxygen ./doc/Doxyfile
+    
+    - name: Publish Doxygen documentation
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./doc/html/
+        
