@@ -22,7 +22,12 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "The finite element method using deal.II - 2021/2022", "index.html", ]
+  [ "The finite element method using deal.II - 2021/2022", "index.html", [
+    [ "1. Numerical Solution of PDEs Using the Finite Element Method", "index.html", [
+      [ "Main links", "index.html#autotoc_md1", null ],
+      [ "Course program", "index.html#autotoc_md2", null ]
+    ] ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
