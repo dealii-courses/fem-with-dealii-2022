@@ -26,13 +26,20 @@ var NAVTREE =
     [ "1. Numerical Solution of PDEs Using the Finite Element Method", "index.html", [
       [ "Main links", "index.html#autotoc_md1", null ],
       [ "Course program", "index.html#autotoc_md2", null ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"dir_70be2847ac6180c88059eabc5d350203.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['wall_5fclock_5ftype_22829',['wall_clock_type',['http://www.dealii.org/developer/doxygen/deal.II/classTimer.html#ad8c192a0347b160e0367267d72f2abd3',1,'Timer']]],
-  ['weightingfunction_22830',['WeightingFunction',['http://www.dealii.org/developer/doxygen/deal.II/classparallel_1_1CellWeights.html#a802050ef84a321ad53ace8758367be5b',1,'parallel::CellWeights']]]
+  ['wall_5fclock_5ftype_22833',['wall_clock_type',['http://www.dealii.org/developer/doxygen/deal.II/classTimer.html#ad8c192a0347b160e0367267d72f2abd3',1,'Timer']]],
+  ['weightingfunction_22834',['WeightingFunction',['http://www.dealii.org/developer/doxygen/deal.II/classparallel_1_1CellWeights.html#a802050ef84a321ad53ace8758367be5b',1,'parallel::CellWeights']]]
 ];

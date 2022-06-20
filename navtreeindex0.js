@@ -1,8 +1,19 @@
 var NAVTREEINDEX0 =
 {
-"index.html":[],
+"dir_70be2847ac6180c88059eabc5d350203.html":[1,0,0,0],
+"dir_bebd83aaf8d4023a6199a571c3b06b14.html":[1,0,0],
+"files.html":[1,0],
+"globals.html":[1,1,0],
+"globals_func.html":[1,1,1],
 "index.html":[0],
+"index.html":[],
 "index.html#autotoc_md1":[0,0],
 "index.html#autotoc_md2":[0,1],
-"pages.html":[]
+"pages.html":[],
+"pythagoras_8cc.html":[1,0,0,0,0],
+"pythagoras_8cc.html#a0ddf1224851353fc92bfbff6f499fa97":[1,0,0,0,0,3],
+"pythagoras_8cc.html#a1cf97b43bf9b7cbbdcb528847aea52a7":[1,0,0,0,0,0],
+"pythagoras_8cc.html#a2d3ffb9bc658c27b7668dff4848c052e":[1,0,0,0,0,1],
+"pythagoras_8cc.html#a9bf5e666f7782d8538e8c51e48b59225":[1,0,0,0,0,2],
+"pythagoras_8cc_source.html":[1,0,0,0,0]
 };

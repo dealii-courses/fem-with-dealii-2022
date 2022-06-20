@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['manifold_20description_20for_20triangulations_23163',['Manifold description for triangulations',['http://www.dealii.org/developer/doxygen/deal.II/group__manifold.html',1,'']]],
-  ['mappings_20between_20reference_20and_20real_20cell_23164',['Mappings between reference and real cell',['http://www.dealii.org/developer/doxygen/deal.II/group__mapping.html',1,'']]],
-  ['matrix_20classes_23165',['Matrix classes',['http://www.dealii.org/developer/doxygen/deal.II/group__Matrices.html',1,'']]],
-  ['matrix_2dfree_20infrastructure_23166',['Matrix-free infrastructure',['http://www.dealii.org/developer/doxygen/deal.II/group__matrixfree.html',1,'']]],
-  ['memory_20handling_23167',['Memory handling',['http://www.dealii.org/developer/doxygen/deal.II/group__memory.html',1,'']]],
-  ['multilevel_20support_23168',['Multilevel support',['http://www.dealii.org/developer/doxygen/deal.II/group__mg.html',1,'']]]
+  ['manifold_20description_20for_20triangulations_23167',['Manifold description for triangulations',['http://www.dealii.org/developer/doxygen/deal.II/group__manifold.html',1,'']]],
+  ['mappings_20between_20reference_20and_20real_20cell_23168',['Mappings between reference and real cell',['http://www.dealii.org/developer/doxygen/deal.II/group__mapping.html',1,'']]],
+  ['matrix_20classes_23169',['Matrix classes',['http://www.dealii.org/developer/doxygen/deal.II/group__Matrices.html',1,'']]],
+  ['matrix_2dfree_20infrastructure_23170',['Matrix-free infrastructure',['http://www.dealii.org/developer/doxygen/deal.II/group__matrixfree.html',1,'']]],
+  ['memory_20handling_23171',['Memory handling',['http://www.dealii.org/developer/doxygen/deal.II/group__memory.html',1,'']]],
+  ['multilevel_20support_23172',['Multilevel support',['http://www.dealii.org/developer/doxygen/deal.II/group__mg.html',1,'']]]
 ];
