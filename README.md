@@ -66,3 +66,11 @@ A tentative detailed program is shown below
 15. Moving from serial Poisson to parallel distributed Poisson 
 16. Vector valued problems
 17. Block Preconditioning
+
+## Checks and tests
+
+| System |  Status |
+| ------ | ------- | 
+| **Continous Integration**  | [![GitHub CI](https://github.com/dealii-courses/fem-with-dealii-2022/actions/workflows/tests.yml/badge.svg)](https://github.com/dealii-courses/fem-with-dealii-2022/actions/workflows/tests.yml)   |
+| **Doxygen**  | [![Doxygen](https://github.com/dealii-courses/fem-with-dealii-2022/actions/workflows/doxygen.yml/badge.svg)](https://github.com/dealii-courses/fem-with-dealii-2022/actions/workflows/doxygen.yml) |
+| **Indent** | [![Indent](https://github.com/dealii-courses/fem-with-dealii-2022/actions/workflows/indentation.yml/badge.svg)](https://github.com/dealii-courses/fem-with-dealii-2022/actions/workflows/indentation.yml) |
