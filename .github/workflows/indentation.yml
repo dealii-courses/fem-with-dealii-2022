@@ -16,4 +16,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Check indentation
       run: |
+         git config --global --add safe.directory /__w/fem-with-dealii-2022/fem-with-dealii-2022
          ./scripts/check_indentation.sh 
