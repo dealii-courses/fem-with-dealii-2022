@@ -13,6 +13,6 @@ fi
 # collect a list of files and then indent them all
 echo "--- Indenting all header and source files"
 SRC_FILES=`find . -name "*.cc"`
-H_FILES=`find . -name "*.h"`
+#H_FILES=`find . -name "*.h"`
 clang-format -i $SRC_FILES
-clang-format -i $H_FILES
+#clang-format -i $H_FILES
