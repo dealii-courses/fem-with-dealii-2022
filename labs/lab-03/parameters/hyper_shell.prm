@@ -1,0 +1,14 @@
+# Listing of Parameters
+# ---------------------
+subsection Step3
+  set Boundary condition expression = 0
+  set Finite element degree         = 1
+  set Forcing term expression       = 1
+  set Grid generator arguments      = 0,0: .5: 1.: 0: false
+  set Grid generator function       = hyper_shell
+  set Number of global refinements  = 4
+  set Output filename               = hyper_shell.vtk
+  set Problem constants             = 
+end
+
+

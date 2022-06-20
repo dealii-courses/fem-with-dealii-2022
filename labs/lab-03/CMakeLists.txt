@@ -1,0 +1,29 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.15)
+
+PROJECT(gtest)
+
+FIND_PACKAGE(deal.II 9.3 REQUIRED
+HINTS ${deal.II_DIR} ${DEAL_II_DIR} ../ ../../ $ENV{DEAL_II_DIR})
+
+DEAL_II_INITIALIZE_CACHED_VARIABLES()
+
+# Executable
+FILE(GLOB executable_files source/*cc)
+ADD_EXECUTABLE(step-3 ${executable_files})
+DEAL_II_SETUP_TARGET(step-3)
+
+# Library of the executable
+ADD_LIBRARY(step-3-lib SHARED $<TARGET_OBJECTS:step-3>)
+DEAL_II_SETUP_TARGET(step-3-lib)
+
+# Tester executable
+FIND_PACKAGE(GTest REQUIRED)
+FILE(GLOB test_files tests/*cc)
+ADD_EXECUTABLE(gtest ${test_files})
+TARGET_LINK_LIBRARIES(gtest ${GTEST_LIBRARY} ${GTEST_MAIN_LIBRARY} step-3-lib)   
+DEAL_II_SETUP_TARGET(gtest)
+
+INCLUDE_DIRECTORIES(${GTEST_INCLUDE_DIRS} ./include/)
+
+ENABLE_TESTING()
+GTEST_DISCOVER_TESTS(gtest)

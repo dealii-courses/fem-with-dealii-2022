@@ -1,0 +1,14 @@
+# Listing of Parameters
+# ---------------------
+subsection Step3
+  set Boundary condition expression = 0
+  set Finite element degree         = 1
+  set Forcing term expression       = 1
+  set Grid generator arguments      = 0: 1: false
+  set Grid generator function       = hyper_cube
+  set Number of global refinements  = 4
+  set Output filename               = hyper_cube.vtk
+  set Problem constants             = 
+end
+
+

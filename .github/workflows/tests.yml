@@ -26,6 +26,7 @@ jobs:
       run: |
          cd labs/lab-01/build_linux_debug
          ./gtest
+    
     - name: Build lab 02
       run: |
          cd labs/lab-02
@@ -36,4 +37,16 @@ jobs:
     - name: Run gtest on lab 02 
       run: |
          cd labs/lab-02/build_linux_debug
+         ./gtest
+
+    - name: Build lab 03
+      run: |
+         cd labs/lab-03
+         rm -rf build_linux_debug
+         mkdir build_linux_debug 
+         cd build_linux_debug
+         cmake .. -GNinja -DCMAKE_BUILD_TYPE=Debug; ninja
+    - name: Run gtest on lab 03 
+      run: |
+         cd labs/lab-03/build_linux_debug
          ./gtest
