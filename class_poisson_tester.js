@@ -1,4 +1,5 @@
 var class_poisson_tester =
 [
-    [ "PoissonTester", "class_poisson_tester.html#ae720e9b61ed775d2ba99247d2df911c6", null ]
+    [ "PoissonTester", "class_poisson_tester.html#a08e06f11638df6003f07b40417a1554c", null ],
+    [ "PoissonTester", "class_poisson_tester.html#a08e06f11638df6003f07b40417a1554c", null ]
 ];

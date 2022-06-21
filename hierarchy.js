@@ -6,8 +6,8 @@ var hierarchy =
         [ "RightHandSide< dim >", "class_right_hand_side.html", null ]
       ] ]
     ] ],
-    [ "Poisson", "class_poisson.html", [
-      [ "PoissonTester", "class_poisson_tester.html", null ]
+    [ "Poisson< dim >", "class_poisson.html", [
+      [ "PoissonTester< Integral >", "class_poisson_tester.html", null ]
     ] ],
     [ "Step3", "class_step3.html", [
       [ "Step3Tester", "class_step3_tester.html", null ]
@@ -17,7 +17,7 @@ var hierarchy =
       [ "Function< dim >", "http://www.dealii.org/developer/doxygen/deal.II/classFunction.html", null ]
     ] ],
     [ "Test", null, [
-      [ "PoissonTester", "class_poisson_tester.html", null ],
+      [ "PoissonTester< Integral >", "class_poisson_tester.html", null ],
       [ "Step3Tester", "class_step3_tester.html", null ]
     ] ]
 ];

@@ -1,7 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_poisson.html" title=" " alt="" coords="5,5,77,32"/>
-<area shape="rect" id="node2" href="$class_poisson_tester.html" title=" " alt="" coords="125,31,236,57"/>
-<area shape="rect" id="node3" href="$class_step3.html" title=" " alt="" coords="12,107,71,133"/>
-<area shape="rect" id="node4" href="$class_step3_tester.html" title=" " alt="" coords="131,93,230,120"/>
-<area shape="rect" id="node5" title=" " alt="" coords="17,56,65,83"/>
+<area shape="rect" id="node1" href="$class_poisson.html" title=" " alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$class_poisson_tester.html" title=" " alt="" coords="180,31,371,57"/>
+<area shape="rect" id="node3" href="$class_step3.html" title=" " alt="" coords="39,107,98,133"/>
+<area shape="rect" id="node4" href="$class_step3_tester.html" title=" " alt="" coords="226,93,325,120"/>
+<area shape="rect" id="node5" title=" " alt="" coords="45,56,93,83"/>
 </map>
