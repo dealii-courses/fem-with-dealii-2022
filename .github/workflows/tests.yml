@@ -70,7 +70,7 @@ jobs:
          mkdir build_linux_debug 
          cd build_linux_debug
          cmake .. -GNinja -DCMAKE_BUILD_TYPE=Debug; ninja
-    - name: Run gtest on lab 05 
+    - name: Run ctest on lab 05 
       run: |
          cd labs/lab-05/build_linux_debug
-         ./gtest
+         ctest
