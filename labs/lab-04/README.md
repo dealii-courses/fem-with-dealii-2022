@@ -1,5 +1,5 @@
 #  Lab 04 - Template parameters and convergence rates
-## Theory and Practice of Finite Elements
+## The finite element method using deal.II
 
 **Luca Heltai** <luca.heltai@sissa.it>
 
