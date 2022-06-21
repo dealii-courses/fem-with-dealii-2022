@@ -178,9 +178,10 @@ get_info(const Triangulation<2> &triangulation)
                          triangulation.n_active_cells());
 }
 
+using Info = std::tuple<unsigned int, unsigned int, unsigned int>;
+
 std::ostream &
-operator<<(std::ostream                                               &os,
-           const std::tuple<unsigned int, unsigned int, unsigned int> &tpl)
+operator<<(std::ostream &os, const Info &tpl)
 {
   os << "levels: " << std::get<0>(tpl);
   os << ", cells: " << std::get<1>(tpl);
