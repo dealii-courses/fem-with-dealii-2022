@@ -1,0 +1,12 @@
+digraph "labs/lab-04/tests" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cbe393866d1784931ce96f16603ce05d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lab-04" fontname="Helvetica", fontsize="10", URL="dir_cbe393866d1784931ce96f16603ce05d.html"]
+  dir_d9b7eeb792debf0509463b9cf5267bf4 [shape=box, label="tests", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d9b7eeb792debf0509463b9cf5267bf4.html"];
+  }
+  dir_c5633c73d438e18f94d4398b6e5d9df0 [shape=box label="include" URL="dir_c5633c73d438e18f94d4398b6e5d9df0.html"];
+  dir_d9b7eeb792debf0509463b9cf5267bf4->dir_c5633c73d438e18f94d4398b6e5d9df0 [headlabel="1", labeldistance=1.5 headhref="dir_000010_000011.html"];
+}

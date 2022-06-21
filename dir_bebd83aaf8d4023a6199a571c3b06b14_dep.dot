@@ -1,0 +1,14 @@
+digraph "labs" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bebd83aaf8d4023a6199a571c3b06b14 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bebd83aaf8d4023a6199a571c3b06b14.html"];
+    dir_bebd83aaf8d4023a6199a571c3b06b14 [shape=plaintext label="labs"];
+    dir_70be2847ac6180c88059eabc5d350203 [shape=box label="lab-01" color="black" fillcolor="white" style="filled" URL="dir_70be2847ac6180c88059eabc5d350203.html"];
+    dir_a7732e6b5399786d94176c733993048f [shape=box label="lab-02" color="red" fillcolor="white" style="filled" URL="dir_a7732e6b5399786d94176c733993048f.html"];
+    dir_df994edd18e4c402f74097ac648f05e4 [shape=box label="lab-03" color="red" fillcolor="white" style="filled" URL="dir_df994edd18e4c402f74097ac648f05e4.html"];
+    dir_cbe393866d1784931ce96f16603ce05d [shape=box label="lab-04" color="red" fillcolor="white" style="filled" URL="dir_cbe393866d1784931ce96f16603ce05d.html"];
+  }
+}
