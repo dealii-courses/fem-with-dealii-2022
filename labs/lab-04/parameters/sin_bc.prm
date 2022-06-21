@@ -1,0 +1,14 @@
+# Listing of Parameters
+# ---------------------
+subsection Step3
+  set Boundary condition expression = sin(omega*pi*x)*sin(omega*pi*y)
+  set Finite element degree         = 1
+  set Forcing term expression       = 0
+  set Grid generator arguments      = 0,0: 1: false
+  set Grid generator function       = hyper_ball
+  set Number of global refinements  = 4
+  set Output filename               = sin_bc.vtk
+  set Problem constants             = pi:3.141592653589793, omega:2
+end
+
+
