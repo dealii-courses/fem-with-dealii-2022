@@ -28,9 +28,9 @@ TEST(Step1, Mark1)
 }
 
 
-// Remove the DISABLED_ prefix from the following tests when you have done the
+// Remove the  prefix from the following tests when you have done the
 // corresponding exercise
-TEST(Step1, DISABLED_Mark2)
+TEST(Step1, Mark2)
 {
   Triangulation<2> tria;
   second_grid(tria);
@@ -38,7 +38,7 @@ TEST(Step1, DISABLED_Mark2)
 }
 
 
-TEST(Step1, DISABLED_Mark3)
+TEST(Step1, Mark3)
 {
   Triangulation<2> tria;
   third_grid(tria);
@@ -47,7 +47,7 @@ TEST(Step1, DISABLED_Mark3)
 
 
 
-TEST(Step1, DISABLED_Mark4)
+TEST(Step1, Mark4)
 {
   Triangulation<2> tria;
   first_grid(tria);
@@ -59,7 +59,7 @@ TEST(Step1, DISABLED_Mark4)
 
 
 
-TEST(Step1, DISABLED_Mark5)
+TEST(Step1, Mark5)
 {
   Triangulation<2> tria;
   second_grid(tria);
@@ -71,7 +71,7 @@ TEST(Step1, DISABLED_Mark5)
 
 
 
-TEST(Step1, DISABLED_Mark6)
+TEST(Step1, Mark6)
 {
   Triangulation<2> tria;
   third_grid(tria);
