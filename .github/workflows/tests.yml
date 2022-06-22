@@ -74,3 +74,15 @@ jobs:
       run: |
          cd labs/lab-05/build_linux_debug
          ctest
+
+    - name: Build lab 06
+      run: |
+         cd labs/lab-06
+         rm -rf build_linux_debug
+         mkdir build_linux_debug 
+         cd build_linux_debug
+         cmake .. -GNinja -DCMAKE_BUILD_TYPE=Debug; ninja
+    - name: Run ctest on lab 06 
+      run: |
+         cd labs/lab-06/build_linux_debug
+         ctest
