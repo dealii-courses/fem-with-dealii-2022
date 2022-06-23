@@ -1,5 +1,6 @@
 var annotated_dup =
 [
+    [ "Step40", "namespace_step40.html", "namespace_step40" ],
     [ "BoundaryValues", "class_boundary_values.html", "class_boundary_values" ],
     [ "Poisson", "class_poisson.html", "class_poisson" ],
     [ "PoissonTester", "class_poisson_tester.html", "class_poisson_tester" ],

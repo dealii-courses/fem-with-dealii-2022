@@ -5,7 +5,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node10 [label="Poisson\< dim \>",height=0.2,width=0.4,color="black",URL="$class_poisson.html",tooltip=" "];
+  Node10 [label="Poisson\< dim \>",height=0.2,width=0.4,color="black",URL="$class_poisson.html",tooltip="Solve the Poisson problem, with Dirichlet or Neumann boundary conditions, on all geometries that can ..."];
   Node10 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 [label="PoissonTester\< Integral \>",height=0.2,width=0.4,color="black",URL="$class_poisson_tester.html",tooltip=" "];
   Node9 [label="Step3",height=0.2,width=0.4,color="black",URL="$class_step3.html",tooltip=" "];

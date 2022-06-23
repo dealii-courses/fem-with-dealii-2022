@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="class_poisson.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_poisson.html" target="_top" xlink:title="Solve the Poisson problem, with Dirichlet or Neumann boundary conditions, on all geometries that can ...">
 <polygon fill="none" stroke="black" points="66,-56.5 66,-75.5 161,-75.5 161,-56.5 66,-56.5"/>
 <text text-anchor="middle" x="113.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">Poisson&lt; dim &gt;</text>
 </a>

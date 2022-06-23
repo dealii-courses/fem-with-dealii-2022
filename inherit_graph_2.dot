@@ -5,13 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node11 [label="FunctionTime\< numbers\l::NumberTraits\< double\l \>::real_type \>",height=0.2,width=0.4,color="black",URL="/__w/fem-with-dealii-2022/fem-with-dealii-2022/deal.tag$classFunctionTime.html",tooltip=" "];
-  Node11 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 [label="Function\< dim \>",height=0.2,width=0.4,color="black",URL="/__w/fem-with-dealii-2022/fem-with-dealii-2022/deal.tag$classFunction.html",tooltip=" "];
-  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="BoundaryValues\< dim \>",height=0.2,width=0.4,color="black",URL="$class_boundary_values.html",tooltip=" "];
-  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="RightHandSide\< dim \>",height=0.2,width=0.4,color="black",URL="$class_right_hand_side.html",tooltip=" "];
-  Node0 [label="Subscriptor",height=0.2,width=0.4,color="black",URL="/__w/fem-with-dealii-2022/fem-with-dealii-2022/deal.tag$classSubscriptor.html",tooltip=" "];
-  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="Step4\< dim \>",height=0.2,width=0.4,color="black",URL="$class_step4.html",tooltip=" "];
 }

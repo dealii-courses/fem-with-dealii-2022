@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['numerical_20algorithms_23294',['Numerical algorithms',['http://www.dealii.org/developer/doxygen/deal.II/group__numerics.html',1,'']]]
+  ['numerical_20algorithms_23353',['Numerical algorithms',['http://www.dealii.org/developer/doxygen/deal.II/group__numerics.html',1,'']]]
 ];

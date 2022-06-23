@@ -6,6 +6,7 @@ var hierarchy =
         [ "RightHandSide< dim >", "class_right_hand_side.html", null ]
       ] ]
     ] ],
+    [ "Step40::LaplaceProblem< dim >", "class_step40_1_1_laplace_problem.html", null ],
     [ "Poisson< dim >", "class_poisson.html", [
       [ "PoissonTester< Integral >", "class_poisson_tester.html", null ]
     ] ],

@@ -23,10 +23,9 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "The finite element method using deal.II - 2021/2022", "index.html", [
-    [ "1. Numerical Solution of PDEs Using the Finite Element Method", "index.html", [
-      [ "Main links", "index.html#autotoc_md1", null ],
-      [ "Course program", "index.html#autotoc_md2", null ],
-      [ "Checks and tests", "index.html#autotoc_md3", null ]
+    [ "Adaptive FEM for Poisson problem", "index.html", null ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -36,6 +35,7 @@ var NAVTREE =
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
+        [ "Typedefs", "functions_type.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
@@ -44,7 +44,8 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
-        [ "Typedefs", "globals_type.html", null ]
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -52,7 +53,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"lab-06_2tests_2poisson__tester_8cc.html#a6a3419b372b5007e1e827d2fc2825716"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
